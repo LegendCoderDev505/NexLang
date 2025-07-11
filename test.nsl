@@ -1,0 +1,93 @@
+import main_lib
+import math
+import bools
+import sys
+import object
+
+print "hello world"
+input "what is you'r name:"
+output 0
+
+@definition void static
+function main (string[] args) {
+    output args
+}
+
+@classes object
+class Object begin 
+    @definition void class 
+    function __object_class__([self], init) {
+        output "Hello world"
+    }
+end
+
+local @a = 12
+
+if a == 10 do 
+    output print "the variable a is a 10!!"
+elseif a > 10 do 
+    output print "the variable a is greater than 10!!"
+elseif a < 10 do 
+    output print "the variable a is less than 10!!"
+elseif a <= 10 do 
+    output print "the variable a is greater than 10!!"
+elseif a >= 10 do 
+    output print "the variable a is less than 10!!"
+else do
+    output print "are you dumb the variable a is not 10"
+end
+
+local @a_variable == 10 # You could use '==' more than '='
+local @b_variable == 20
+local @c_variable == Null 
+output @a_variable and @b_variable is 20
+output @a_variable or @b_variable is 20
+output !@a_variable until !@b_variable is 201
+
+
+defenied? {
+    print "First Statment"
+    print "Second Statement"
+}
+
+defenied? {
+    local @a_variable == 1
+}
+
+while [a_variable < 10; a++] do 
+    if !ensure [a < 10] then output a_variablea++ do 
+        not [ensure [a_variable < 10] then output a_variable++] is True do 
+            retry ensure [a_variable > 10 or a_variable < 10] 
+            retry a_variablea > 10 
+            rescue a_variablea
+        end
+
+        break;
+    end 
+end
+
+for [a_variable == 1 then a_variable < 10 then a_variable = a_variable++ ]{
+  print @a_variable
+}
+
+
+@definition void static 
+function BreakFast (str::who, null::food) { 
+    @definition manual stack 
+    function frying () {
+        print "the egg are gonna frying";
+    }
+
+    @definition manual stack 
+    function server (alias [who]) {
+        print "here you go Mr./Mrs." ... @who ... "." 
+        # ahh simple lua "..." things is wonderfull
+    }
+}
+
+@definition void object 
+function addPair (object::pair) {
+    return in [pair]
+}
+
+local @break_fast_variable == [addPair(BreakFast("John", "Pancakes"))]

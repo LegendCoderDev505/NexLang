@@ -1,0 +1,63 @@
+# Imports 
+
+import [conditions]
+import [conditions] as [nickname for conditions]
+import [conditions] from [root of conditions]
+from [package conditions] import [conditions] export [inner definition condition]
+examples :
+import mad_lib
+import mad_lib as mlib
+import mad_lib from  mad_two_lib
+from mad_two_lib import mad_lib export mad_mans
+
+# DATA TYPES 
+local @string_variable_x = "Hello world"
+local @integer_variable_x = 155
+local @boolean_variable_x = True or False
+local @float_number_variable_x = 1.55
+
+# ARITHEMATIC 
+
+add + me;
+subtract - me;
+multiply * me;
+divide / me;
+
+# COMPARISON AND EQUALITY 
+
+a <= b 
+a >= b 
+a > b 
+a < b 
+
+# WHILE LOOP 
+
+while [condition] do 
+    [codes]
+end 
+
+# EXPRESSION
+print args;
+input args_of_input;
+output args_of_output_INT;
+
+
+# FUNCTION AND CLASS
+@definition (void/manual) (static/stack/class/object)
+function ...(string[] args) { ... }
+
+@classes (object/list/null)
+class ... begin 
+    @definition void class 
+    function (__object_class__ / __object_init__ / __object_collect__) ([self]) { ... }
+end
+
+# CONTROL FLOW 
+
+if [condition] do 
+    [code of condition]
+elseif [condition] do 
+    [code of condition]
+else do 
+    [code of condition]
+end

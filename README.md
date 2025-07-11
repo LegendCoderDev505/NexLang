@@ -1,2 +1,12 @@
-# NexLang
-NexLang Programming language is an Interpreter Language and it is OOP with its functions and design it also match same as Lua and Ruby Combined with cast and many lines of codes in one file
+# NexLang ⚡
+
+A high-performance systems programming language with modern syntax.
+
+## Quick Start
+
+```bash
+# Build from source
+git clone https://github.com/LegendCoderDev505/NexLang.git
+cd NexLang
+make
+./nex examples/hello.nex

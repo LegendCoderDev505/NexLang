@@ -9,4 +9,3 @@ A high-performance systems programming language with modern syntax.
 git clone https://github.com/LegendCoderDev505/NexLang.git
 cd NexLang
 make
-./nex examples/hello.nex
